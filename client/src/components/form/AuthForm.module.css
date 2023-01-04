@@ -1,0 +1,35 @@
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form_control label {
+  font-weight: 500;
+}
+
+.form_control input[type='text'],
+.form_control input[type='password'] {
+  border: none;
+  margin-bottom: 0.6em;
+  padding: 0.5em 0;
+  font-weight: 300;
+  width: 90%;
+  margin-bottom: 0;
+}
+
+.form_control input[type='text']:focus,
+.form_control input[type='password'] {
+  outline: none;
+  margin-bottom: 0;
+}
+
+.inputContainer {
+  border-bottom: 1.5px black solid;
+  width: 20em;
+  margin-bottom: 2em;
+}
+
+.inputContainer span {
+  cursor: pointer;
+}

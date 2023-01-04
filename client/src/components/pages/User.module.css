@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  padding: 0 10em;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+.title h1 {
+  margin-right: 0.5em;
+}
+
+.optionsContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.columns {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0em 2em;
+  justify-content: center;
+}
+
+.balanceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: 30%;
+  margin-bottom: 1em;
+}
+
+.balanceContainer button {
+  display: flex;
+  width: 60px;
+  height: 35px;
+  padding: 10px 10px;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+}

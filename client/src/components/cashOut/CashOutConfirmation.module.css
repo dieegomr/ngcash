@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.closeButton {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 2em;
+}
+
+.container p {
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+
+.valueContainer {
+  display: flex;
+}
+
+.realSign {
+  font-weight: 200;
+  font-size: 4em;
+  margin-right: 0.1em;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 4em;
+}
+
+.usernameCointainer {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.toUsername {
+  margin-right: 0.2em;
+}
+
+.usernameCointainer .username {
+  font-weight: 500;
+}
+
+.btn_transferConfirmation {
+  align-self: center;
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: #fff;
+  border-radius: 15px;
+  border-color: #000;
+  border-width: 1px;
+  box-shadow: 4px 4px #7c2cff, 5px 5px #000;
+  width: 15em;
+}
+
+.btn_transferConfirmation:active {
+  box-shadow: 0 0px #000;
+  transform: translateY(4px);
+}
+
+.btn_transferLoading {
+  align-self: center;
+  width: 15em;
+  padding: 10px 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #cccccc;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px;
+  border-color: #cccccc;
+  transform: translateY(4px);
+  border-width: 1px;
+  transform: translateY(4px);
+}
+
+.btn_transferLoading span {
+  margin-left: 5px;
+}

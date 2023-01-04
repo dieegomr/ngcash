@@ -1,0 +1,68 @@
+.balance_container {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: center;
+  width: 100%;
+  border-radius: 1em;
+  height: 10em;
+  border: #000 solid 1px;
+}
+
+.balance_container button {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 1em;
+  margin-right: 1em;
+  height: 10%;
+}
+
+.balance_value__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* .currency_sign {
+  width: 40%;
+  font-weight: 500;
+  font-size: 3em;
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+}*/
+
+.balance_value {
+  display: flex;
+  align-items: center;
+}
+
+.hidden_bar {
+  border: 3px solid #000;
+  border-radius: 4px;
+  width: 3em;
+  height: 15px;
+  background-color: #000;
+  padding-left: 1em;
+}
+
+.balance_hidden {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.balance_hidden p {
+  width: 50%;
+}
+
+.balance_hidden .hidden_bar {
+  width: 40%;
+}
+
+.balanceContainer {
+  display: flex;
+  font-size: 3em;
+}

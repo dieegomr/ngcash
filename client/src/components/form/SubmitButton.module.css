@@ -1,0 +1,59 @@
+.btn_auth,
+.btn_transfer {
+  align-self: center;
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: #fff;
+  border-radius: 15px;
+  border-color: #000;
+  border-width: 1px;
+}
+
+.btn_auth {
+  box-shadow: 4px 4px #7c2cff, 5px 5px #000;
+  width: 200px;
+  margin-top: 1em;
+}
+
+.btn_transfer {
+  box-shadow: 4px 4px #000, 5px 5px #000;
+  width: 150px;
+}
+
+.btn_auth:active,
+.btn_transfer:active {
+  box-shadow: 0 0px #000;
+  transform: translateY(4px);
+}
+
+.btn_container {
+  justify-content: center;
+  display: flex;
+}
+
+.btn_loading {
+  align-self: center;
+  margin-top: 1em;
+  width: 200px;
+  padding: 10px 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #cccccc;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px;
+  border-color: #cccccc;
+  transform: translateY(4px);
+  border-width: 1px;
+}
+
+.btn_loading span {
+  margin-left: 5px;
+}

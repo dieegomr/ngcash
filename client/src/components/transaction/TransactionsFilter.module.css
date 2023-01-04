@@ -1,0 +1,81 @@
+.container {
+  padding: 2em;
+  align-items: center;
+  height: 100%;
+}
+
+.container .transactionType,
+.container .filterDate {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  border: none;
+  margin-bottom: 1em;
+}
+
+.container .transactionType .option input,
+.container .filterDate .option input {
+  color: #000;
+  cursor: pointer;
+}
+
+.container .transactionType .option label,
+.container .filterDate .option label {
+  color: #000;
+  cursor: pointer;
+  margin-left: 0.5em;
+}
+
+.container .transactionType .option,
+.container .filterDate .option {
+  display: flex;
+  margin-bottom: 0.3em;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.container .transactionType legend,
+.container .filterDate legend {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.dateOptionForm {
+  display: flex;
+  width: 100%;
+}
+
+.dateOptionForm input {
+  display: flex;
+  width: 4em;
+  height: 2em;
+  border: none;
+  border-bottom: #000 solid 2px;
+  outline: none;
+  padding-left: 1em;
+}
+
+.btn_filter {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: #fff;
+  border-radius: 15px;
+  border-color: #000;
+  border-width: 1px;
+  box-shadow: 4px 4px #000, 5px 5px #000;
+  width: 5em;
+  margin-left: 6em;
+  margin-top: 1em;
+}
+
+.btn_filter:active {
+  box-shadow: 0 0px #000;
+  transform: translateY(4px);
+}

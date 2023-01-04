@@ -1,0 +1,50 @@
+.navbar {
+  justify-content: space-between;
+  background-color: #000;
+  padding: 1em;
+  height: 96px;
+  /* position: fixed; */
+}
+
+.logo {
+  height: 100%;
+  height: 48px;
+  width: 160px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.item a,
+.item button {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border: #fff solid 1px;
+  border-radius: 290486px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  justify-content: center;
+  padding: calc(0.5em - 1px) 1em;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #000;
+}
+
+.item a:hover,
+.item button:hover {
+  color: #b5b5b9;
+  border: #b5b5b9 solid 1px;
+  text-decoration: none;
+}

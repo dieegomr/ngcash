@@ -1,0 +1,28 @@
+version: '3'
+services:
+  ngcash-db:
+    image: 'postgres'
+    restart: always
+    ports:
+      - '5433:5432'
+    environment:
+      POSTGRES_PASSWORD: 'mysecretpassword'
+      POSTGRES_USER: 'postgres'
+    volumes:
+      - ./postgres-db:/var/lib/postgresql/data
+  react-app:
+    build: ./client
+    ports:
+      - '3000:3000'
+    depends_on:
+      - node-app
+  node-app:
+    build: ./server
+    restart: unless-stopped
+    ports:
+      - '4000:4000'
+    env_file:
+      - ./server/.env.dev
+      - ./server/.env.production
+    depends_on:
+      - ngcash-db

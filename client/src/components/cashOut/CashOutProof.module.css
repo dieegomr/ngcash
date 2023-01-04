@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container button {
+  margin-bottom: 1em;
+}
+
+.tranferDetails {
+  padding: 2em;
+}
+
+.tranferDetails .title {
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.tranferDetails p {
+  font-weight: 300;
+}
+
+.closeButton {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.valueContainer {
+  font-weight: 300;
+  font-size: 4em;
+}
+
+.dateCointainer {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.dateCointainer .date {
+  margin-left: 0.3em;
+  font-weight: 500;
+}
+
+.usernameCointainer .username {
+  font-weight: 500;
+  margin-left: 0.3em;
+  margin-bottom: 1em;
+}
+
+.usernameCointainer {
+  display: flex;
+}
+.transactionContainer .transactionID {
+  font-weight: 500;
+}

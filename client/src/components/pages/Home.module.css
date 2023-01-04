@@ -1,0 +1,52 @@
+.home_container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+.home_container h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.home_container h1 span {
+  margin-bottom: 0.5em;
+  color: #fff;
+  background-color: #000;
+}
+
+.home_container h2 {
+  margin-bottom: 1.5em;
+}
+
+.home_container p {
+  margin-bottom: 1.5em;
+}
+
+.image-side {
+  height: auto;
+  max-width: 100%;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+.image-side {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.column img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}

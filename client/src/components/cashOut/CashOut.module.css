@@ -1,0 +1,123 @@
+.form_control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+  border: #000 solid 1px;
+  margin-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.cashOut_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+}
+
+.cashOut_container form {
+  margin-bottom: 1em;
+}
+
+.form_control__value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_control__value label {
+  margin-bottom: 1em;
+}
+
+.form_control__value input {
+  height: 5em;
+}
+
+.form_control input[type='text']:focus {
+  outline: none;
+}
+
+.form_control__value input[type='number'] {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+::placeholder {
+  color: #000;
+  opacity: 0.2;
+}
+
+.form_control__username {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_control__username label {
+  margin-bottom: 1em;
+}
+
+.form_control__username input[type='text'] {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+  font-size: 20px;
+  padding-bottom: 0.3em;
+}
+
+.currency_sign {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-right: 3em;
+  margin-bottom: 1em;
+}
+
+.currency_sign p,
+.currency_sign input {
+  display: flex;
+  width: 50%;
+}
+
+.currency_sign p {
+  justify-content: flex-end;
+  font-size: 50px;
+}
+.currency_sign input {
+  justify-content: flex-end;
+  font-size: 50px;
+  height: 60px;
+  outline: none;
+  border: none;
+}
+
+.btn_transfer {
+  align-self: center;
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: #fff;
+  border-radius: 15px;
+  border-color: #000;
+  border-width: 1px;
+  box-shadow: 4px 4px #7c2cff, 5px 5px #000;
+  width: 15em;
+}
+
+.btn_transfer:active {
+  box-shadow: 0 0px #000;
+  transform: translateY(4px);
+}
