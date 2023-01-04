@@ -15,8 +15,8 @@ Este é um projeto fullstack desenvolvido como parte do desafio técnico para o 
 
 <h3>Como rodar esta aplicação fullstack no seu computador?</h3>
 
-<p>1) Clonar o repositório </p>
-<p> $ git clone https://github.com/dieegomr/ngcash.git</p>
-<p>2) Abra a pasta do projeto no terminal</p>
-<p>3) Rode a linha de comando: docker-compose up -d</p>
-<p>3) Acesse http://localhost:3000 no seu navegador</p>
+<p>1) Baixar o docker na sua máquina: https://docs.docker.com/desktop/</p>
+<p>2) Clonar o repositório ngcash: $ git clone https://github.com/dieegomr/ngcash.git </p>
+<p>3) Abra a pasta do projeto no terminal</p>
+<p>4) Rode a linha de comando: docker-compose up -d</p>
+<p>5) Acesse http://localhost:3000 no seu navegador</p>
